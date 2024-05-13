@@ -5,7 +5,7 @@ import "../../styles/home.css";
 
 const Home = () => (
 
-    export const Login = () => {
+    export const SignUp = () => {
         const { store, actions } = useContext(Context);
 
 	return (
@@ -21,7 +21,7 @@ const Home = () => (
         <input type="password" class="form-control" id="inputPassword" />
      </div>
     
-    <button type="submit" className="btn btn-primary">Log in</button>
+    <button type="submit" className="btn btn-primary">Sign up</button>
     </form>
 
 
