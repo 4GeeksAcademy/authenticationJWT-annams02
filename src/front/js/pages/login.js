@@ -3,9 +3,8 @@ import { Context } from "../store/appContext";
 import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 
-const Home = () => (
 
-    export const Login = () => {
+export const Login = () => {
         const { store, actions } = useContext(Context);
 
 	return (

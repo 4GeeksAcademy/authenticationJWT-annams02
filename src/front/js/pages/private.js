@@ -3,9 +3,7 @@ import { Context } from "../store/appContext";
 import rigoImageUrl from "../../img/rigo-baby.jpg";
 import "../../styles/home.css";
 
-const Private = () => (
-
-    export const Private = () => {
+export const Private = () => {
         const { store, actions } = useContext(Context);
 
 	return (
